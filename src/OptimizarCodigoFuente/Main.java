@@ -21,7 +21,7 @@ public class Main {
         
         //ya podemos usar sus metodos (suma, resta...) que no son STATIC
         casio1.suma(3, 8);
-        //casio2.multiplica(5, 7);
+        casio2.multiplica(5, 7);
         
         System.out.println("");
         

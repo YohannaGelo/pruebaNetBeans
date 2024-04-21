@@ -72,15 +72,15 @@ public class pruebasTest {
     }
     
     
-//    @Test
-//    public void testMultiplica() {
-//        System.out.println("\nEjecutando Multiplicación");
-//        double num1 = 10;
-//        double num2 = 6;
-//        double expResult = 60;
-//        double result = objectCalc.multiplica(num1, num2);
-//        assertEquals(expResult, result, 0.0);
-//    }
+    @Test
+    public void testMultiplica() {
+        System.out.println("\nEjecutando Multiplicación");
+        double num1 = 10;
+        double num2 = 6;
+        double expResult = 60;
+        double result = objectCalc.multiplica(num1, num2);
+        assertEquals(expResult, result, 0.0);
+    }
     
     
     @Test

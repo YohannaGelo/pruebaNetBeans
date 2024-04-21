@@ -67,13 +67,13 @@ public class Calculadora {
         return result;
     }
 
-//    public double multiplica(double n1, double n2) {
-//        double result = n1*n2;
-//        System.out.println("La multiplicación de " + n1 + " por " + n2 + " es " + result);
-//        
-//        return result;
-//    }
-//
+    public double multiplica(double n1, double n2) {
+        double result = n1*n2;
+        System.out.println("La multiplicación de " + n1 + " por " + n2 + " es " + result);
+        
+        return result;
+    }
+
     public double divide(double n1, double n2) {
         double result = n1/n2;
         System.out.println("La división de " + n1 + " entre " + n2 + " es " + result);
