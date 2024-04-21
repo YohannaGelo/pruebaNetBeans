@@ -81,16 +81,16 @@ public class pruebasTest {
 //        double result = objectCalc.multiplica(num1, num2);
 //        assertEquals(expResult, result, 0.0);
 //    }
-//    
-//    
-//    @Test
-//    public void testDivide() {
-//        System.out.println("\nEjecutando División");
-//        double num1 = 10;
-//        double num2 = 5;
-//        double expResult = 2;
-//        double result = objectCalc.divide(num1, num2);
-//        assertEquals(expResult, result, 0.0);
-//    }
+    
+    
+    @Test
+    public void testDivide() {
+        System.out.println("\nEjecutando División");
+        double num1 = 10;
+        double num2 = 5;
+        double expResult = 2;
+        double result = objectCalc.divide(num1, num2);
+        assertEquals(expResult, result, 0.0);
+    }
 
 }

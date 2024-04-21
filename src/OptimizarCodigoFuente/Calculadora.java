@@ -74,12 +74,12 @@ public class Calculadora {
 //        return result;
 //    }
 //
-//    public double divide(double n1, double n2) {
-//        double result = n1/n2;
-//        System.out.println("La división de " + n1 + " entre " + n2 + " es " + result);
-//        
-//        return result;
-//    }
+    public double divide(double n1, double n2) {
+        double result = n1/n2;
+        System.out.println("La división de " + n1 + " entre " + n2 + " es " + result);
+        
+        return result;
+    }
 
     
     //para poder visualizar los atributos private desde fuera, tendríamos que pasarlo desde aquí, desde la propia clase
