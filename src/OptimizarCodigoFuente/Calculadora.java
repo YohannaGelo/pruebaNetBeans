@@ -81,6 +81,20 @@ public class Calculadora {
         return result;
     }
 
+    // Método para calcular el módulo de dos números
+    public double modulo(double n1, double n2) {
+        double result = n1 % n2;
+        System.out.println("El módulo de " + n1 + " entre " + n2 + " es " + result);
+        return result;
+    }
+
+    // Sobrecarga del método modulo para int
+    public int modulo(int n1, int n2) {
+        int result = n1 % n2;
+        System.out.println("El módulo de " + n1 + " entre " + n2 + " es " + result);
+        return result;
+    }
+    
     
     //para poder visualizar los atributos private desde fuera, tendríamos que pasarlo desde aquí, desde la propia clase
     public void datos() {
